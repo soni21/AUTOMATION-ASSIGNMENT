@@ -10,7 +10,7 @@ API = https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=fals
 
 ## Setup and Installation
 - Clone the below repository to your local machine using the following command:
-git clone https://github.com/yourusername/category-api-test-automation.git
+git clone https://github.com/soni21/AUTOMATION-ASSIGNMENT.git
 
 - Navigate to the Project Directory and install the required dependencies using Maven
 mvn install
@@ -20,13 +20,13 @@ To run the tests, execute the following Maven command:
 mvn run
 
 ## Tests Included
-testCategoryName()
+- testCategoryName()
 This test is used to validate the category name return from the API.
 
-testCanRelist()
+- testCanRelist()
 This test is used to verify the CanRelist field in the API response.
 
-testGalleryPromotion()
+- testGalleryPromotion()
 This test is used to verify the description field for the "Gallery" promotion.
 
 ## Project Structure
